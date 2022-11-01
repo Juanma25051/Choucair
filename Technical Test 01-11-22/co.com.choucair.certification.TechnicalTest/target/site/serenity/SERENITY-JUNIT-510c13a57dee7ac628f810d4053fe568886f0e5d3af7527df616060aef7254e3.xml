@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="verify the correct operation of register" skipped="0" tests="1" time="30.96" timestamp="2022-11-01 12:32:58"><testcase name="Make a purchase on the yourStore Website"><error message="co.com.choucair.certification.PruebaTecnica.tasks.FormStep1$$EnhancerByCGLIB$$14d2d128.&lt;init&gt;()" type="java.lang.NoSuchMethodException">co.com.choucair.certification.PruebaTecnica.tasks.FormStep1$$EnhancerByCGLIB$$14d2d128.&lt;init&gt;()</error><system-err>co.com.choucair.certification.PruebaTecnica.tasks.FormStep1$$EnhancerByCGLIB$$14d2d128.&lt;init&gt;()&#13;
+co.com.choucair.certification.PruebaTecnica.tasks.FormStep2.validateData(FormStep2.java:14)&#13;
+co.com.choucair.certification.PruebaTecnica.stepdefinitions.UtestStepDefinition.completeTheSecondFormAddYourAddress(UtestStepDefinition.java:35)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

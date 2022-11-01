@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="verify the correct operation of register" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-01T07:19:51" hostname="CHBOGML-145875" time="75.298">
+  <properties/>
+  <testcase name="Register in Utests" classname="verify the correct operation of register" time="75.298"/>
+  <system-out><![CDATA[Welcome to the world's largest community of freelance software testers!Welcome to the world's largest community of freelance software testers!]]></system-out>
+  <system-err><![CDATA[nov 01, 2022 2:19:52 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 21777
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 01, 2022 2:19:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Register in Utests
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>

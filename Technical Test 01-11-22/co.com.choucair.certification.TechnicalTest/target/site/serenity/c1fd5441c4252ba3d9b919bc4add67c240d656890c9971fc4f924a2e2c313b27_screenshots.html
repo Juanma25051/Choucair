@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">PruebaTecnica</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e1c649e737d86cc311f8e3777a4877728015269268b52157096bb3b862b19a51.html">Verify The Correct Operation Of Register</a></span>
+                > <span class="truncate-60"><a
+                    href="c1fd5441c4252ba3d9b919bc4add67c240d656890c9971fc4f924a2e2c313b27.html">Register in Utests </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-11-2022 02:19</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Verify The Correct Operation Of Register </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I want to register on Utest web page.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="11e58a360361a6ec6cfb1df32dcb13b780bb545b3de0654fe7fc1bf5e89d79a8.html">Feature1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Register in Utests
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given enter in the Utest Web site<br>When complete the first form Tell us about yourself<br>And complete the second form Add your address<br>And complete the third form Tell us about your devices<br>And complete the last form The last step<br>Then View the tittle for register in the page</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="5c2d4f02f32dd836f88a9827636de764eb7c458d80c31963b4f39d733bc5a5e0.png" title="Register in Utests #1: {firstName=Pedro, lastName=benites, e_mail=ch16_pruebas123@gmail.com, monthBirth=May, dayBirth=30, yearBirth=number:2002, mobile=Samsung, model=Galaxy S6 Edge, operatingSystem=Android 8.0 (Oreo), password=Pruebatecnica123, confirmPassword=Pruebatecnica123, tittle=Welcome to the world's largest community of freelance software testers!}" width="1920"/>
+                <img src="9207828a313ffda7fcf9abdebb30a99b3db84e21862005daf0545b071963cf97.png" title="Given enter in the Utest Web site" width="1920"/>
+                <img src="a9c8cf2e7aa837e5a408aa9e95b93fef0d2552b5f6971238fc74e6fc0065a683.png" title="Juan opens the Utest home page" width="1920"/>
+                <img src="13d9516e9065ea61a8998c2d6cbf87014bcb7b6251e0c03f2df247ad6aaa2f69.png" title="When complete the first form Tell us about yourself
+| firstName | lastName | e_mail | monthBirth | dayBirth | yearBirth |
+| Pedro | benites | ch16_pruebas123@gmail.com | May | 30 | number:2002 |" width="1920"/>
+                <img src="dd5bb0faa5680a3cc1cd1c217c1b89a2385796911b84e26cac58e3f385d94dbe.png" title="Juan clicks on Button to register" width="1920"/>
+                <img src="7a5b36a6a774fb2460e0603205040f1215a12586eda4625b5ec20c812fffad1f.png" title="Juan enters 'Pedro' into Input for write the first name" width="1920"/>
+                <img src="0632f886c733a92b693a007e29189ce55e466dc361ba34bd7ec4d4f4966ded34.png" title="Juan enters 'benites' into Input for write the last name" width="1920"/>
+                <img src="9f0431cced470bf789a8176eaa9408413316d258622d35ae63545728d6514983.png" title="Juan enters 'ch16_pruebas123@gmail.com' into Input for write the Email" width="1920"/>
+                <img src="0c6fdd065a6742458273e8ee814c2ced69b729aea316c9af2e5998ee5e5e2fe1.png" title="Juan clicks on Select the month of birth" width="1920"/>
+                <img src="643e3737f50f68e9725bc4a580510e5f468d218b5d0b3887e1d50c8be2d84dba.png" title="Juan select May on Select the month of birth" width="1920"/>
+                <img src="2ad4d3836cb804c0890f4a016849ce0147bdc7e2b965742fb9da60a6ce20b787.png" title="Juan clicks on Select the day of birth" width="1920"/>
+                <img src="359e98a16bc73d31374c1cc1354360e0b16536522981429febe5aec829f23ae1.png" title="Juan select 30 on Select the day of birth" width="1920"/>
+                <img src="af8e492616dc236e8a7226f5fd8e121bb2b9c257ee3457cd25394f7c49e9b6a3.png" title="Juan clicks on Select the year of birth" width="1920"/>
+                <img src="3bd6c7c0adcbc8e6d94832e759f7e37036bfa3c04f94f03178e3efa725defde4.png" title="Juan selects number:2002 in Select the year of birth" width="1920"/>
+                <img src="51dc5ee775cae7a169058bb8688963f57a517ce4d42e45185057e52d24abe3ff.png" title="Juan clicks on Input Next Form (location)" width="1920"/>
+                <img src="f238fda605c2b7942131d766818ae4543c53d7a2dc6781887bf523cb6872c4e3.png" title="And complete the second form Add your address" width="1920"/>
+                <img src="bbc6b484a5d3f922faaccf2a5e022301224eb022c0187aaacc73ed53295ac53f.png" title="Juan clicks on Input Next Form (location)" width="1920"/>
+                <img src="db437550d504e1f114f6136022cbabc92982ef19b2a1e6e99fb8d4eca6b9c9f7.png" title="And complete the third form Tell us about your devices
+| mobile | model | operatingSystem |
+| Samsung | Galaxy S6 Edge | Android 8.0 (Oreo) |" width="1920"/>
+                <img src="82cfd6624b290c0aace630d8bd99f13c53c0142fe2127879f4ed35ed71896a71.png" title="Juan clicks on Span mobile device" width="1920"/>
+                <img src="f93ee6bbd16fbe23cfc7c0e9d4f64617eec643ae4469ec18fae69846cfe7f9a7.png" title="Juan enters 'Samsung' into Select mobile device" width="1920"/>
+                <img src="95d252da8bed378861f7d3a035dea29b0de29092425ab19f590ce3c072f985e2.png" title="Juan types 'ENTER' in Select mobile device" width="1920"/>
+                <img src="3529e18574d173ff2cbd71d534c011d8750772fa1db85848c56c521c9a567f0c.png" title="Juan clicks on Span mobile model" width="1920"/>
+                <img src="70bf9fd91adce8177c5982cb06a15fbe4256299713f1e95dedf431983e1ba88b.png" title="Juan enters 'Galaxy S6 Edge' into Select mobile model" width="1920"/>
+                <img src="2799f2ec535c571b4db04dfc340b0cc98a48f7df61ed27393111227bab6029db.png" title="Juan types 'ENTER' in Select mobile model" width="1920"/>
+                <img src="07ed8854391652b0563d901e3390fc8d7c2d150c3c1ff6b495d5077fb81efd9c.png" title="Juan clicks on Span mobile OS" width="1920"/>
+                <img src="0b80c6d2291cd1ac3cd2a59d48cd6ddb9c55d3452227ade4cc1b2dd2964d4fc3.png" title="Juan enters 'Android 8.0 (Oreo)' into Select OS" width="1920"/>
+                <img src="550d7a8666ef70bc7958557e8f97200d324817508b3233bee0b9f7b210e65df8.png" title="Juan types 'ENTER' in Select OS" width="1920"/>
+                <img src="29313b5958ff89ad55ada370c34cc89c4acfd415197547b6108ae42f2808c3df.png" title="Juan clicks on Button next to last step" width="1920"/>
+                <img src="f844e3303a699c4682878c75665aae2d4e8b17353db9a0284a18bdf52cd2a904.png" title="And complete the last form The last step
+| password | confirmPassword |
+| Pruebatecnica123 | Pruebatecnica123 |" width="1920"/>
+                <img src="5a33a4f554539fe73425b828f74ab22fd1309bc52c3e646b9bae23cf85585b7d.png" title="Juan enters 'Pruebatecnica123' into input to write the password" width="1920"/>
+                <img src="8e5368afb5563db3c2a843bb6d906b6bed0071656a98225175f84e0c42b98941.png" title="Juan enters 'Pruebatecnica123' into input to write the password" width="1920"/>
+                <img src="3a5d81588d1339e721eb9af42a0ff561040007ebd628036aefc36ce66f494c8c.png" title="Juan clicks on Check to receive information" width="1920"/>
+                <img src="3211d8cf8f8792202540abbead212d9d5fd5db6fa377359373bd26db5ced8f9e.png" title="Juan clicks on Check to confirm the terms of use" width="1920"/>
+                <img src="71b7c27ffe4a75704844c0329ca1b6143d510f5e952ad312a839c3bac058d3b0.png" title="Juan clicks on Check to confirm the Privacy Policy" width="1920"/>
+                <img src="9e9403d41fdf1b1c50bd7da2178545a524dca5dee7ebcd9d213a434d5e4d6e43.png" title="Juan clicks on Button complete the registration" width="1920"/>
+                <img src="5c2d4f02f32dd836f88a9827636de764eb7c458d80c31963b4f39d733bc5a5e0.png" title="Then View the tittle for register in the page
+| tittle |
+| Welcome to the world's largest community of freelance software testers! |" width="1920"/>
+                <img src="5c2d4f02f32dd836f88a9827636de764eb7c458d80c31963b4f39d733bc5a5e0.png" title="Then answer register: <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

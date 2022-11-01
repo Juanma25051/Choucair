@@ -1,0 +1,4 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ıƒ°òûÿÿÿÿ
+r	java:S116"QRename this field "e_mail" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ‘ÎŠüÿÿÿÿ8÷Õ€Ã0
+i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™’Ö-8îø‹Ã0
